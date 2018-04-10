@@ -15,7 +15,7 @@
     <RootNamespace>MySampleWebApp</RootNamespace>
     <AssemblyName>MySampleWebApp</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
-    <UseIISExpress>true</UseIISExpress>
+    <UseIISExpress>false</UseIISExpress>
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
@@ -67,6 +67,7 @@
   <ItemGroup>
     <Content Include="packages.config" />
     <Content Include="packages\MySampleApp.appxbundle" />
+    <Content Include="packages\MySampleApp.cer" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -97,7 +98,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>57794</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:57794/</IISUrl>
+          <IISUrl>http://localhost/MySampleWebApp</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
